@@ -143,12 +143,12 @@ Invoke-RestMethod -Uri "http://localhost:8000/v1/query" `
 Expected response shape:
 ```json
 {
-  "answer": "Individual contributors are expected to... [1]",
+  "answer": "<answer>",
   "sources": [
     {
       "citation": 1,
       "title": "Your Document",
-      "heading": "Performance Expectations",
+      "heading": "<answer heading>",
       "excerpt": "...",
       "score": 0.83,
       "url": "file://your-document.pdf"
