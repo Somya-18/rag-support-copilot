@@ -18,7 +18,6 @@ Question → embed → vector search ─────┤
 ### 1. Install dependencies
 
 ```bash
-cd "C:\Users\somyam\Documents\AI Projects\kubernetes-support-copilot"
 pip install -e ".[dev]"
 ```
 
