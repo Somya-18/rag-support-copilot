@@ -4,6 +4,12 @@ A backend service for ingesting PDF documents and querying them with AI. Upload 
 service chunks and embeds it. Ask questions in natural language and get cited answers generated
 from the document content using hybrid vector + lexical retrieval and an LLM.
 
+## Problem Statement
+
+When something breaks or you have a question about a complex technical product, the answer is usually buried somewhere in the official documentation — but finding it means hours of digging, reading, and second-guessing whether what you found is actually correct or just an outdated page.
+
+This tool reads all the official docs for you, finds the most relevant pieces, and gives you a direct answer — with exact references to where in the documentation that answer came from. If it can't find enough evidence to answer confidently, it tells you that too, instead of making something up.
+
 ## Architecture
 
 ```
